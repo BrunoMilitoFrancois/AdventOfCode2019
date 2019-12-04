@@ -34,7 +34,7 @@ namespace AdventOfCode2019
             var total = 0;
             foreach (var line in lines)
             {
-                total += CalculateFuelRecursive(int.Parse(line));
+                total += CalculateFuelSum(int.Parse(line));
             }
             return total;
         }
@@ -44,11 +44,11 @@ namespace AdventOfCode2019
             return (mass/3) - 2;
         }
 
-        private static int CalculateFuelRecursive(int mass)
+        private static int CalculateFuelSum(int mass)
         {
             var fuel = CalculateFuel(mass);
 
-            return fuel > 0 ? fuel + CalculateFuelRecursive(fuel) : 0;
+            return fuel > 0 ? fuel + CalculateFuelSum(fuel) : 0;
         }
     }
 }
