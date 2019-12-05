@@ -14,7 +14,6 @@ namespace AdventOfCode2019
             var dayOne = new DayOne();
 
             Console.WriteLine($"Day 01 - Part 1 - Total = {dayOne.PartOne(dayOneInput)}");
-
             Console.WriteLine($"Day 01 - Part 2 - Total = {dayOne.PartTwo(dayOneInput)}");
 
             var dayTwo = new DayTwo();
@@ -22,6 +21,8 @@ namespace AdventOfCode2019
             var inputs = File.ReadAllLines("02.txt");
 
             Console.WriteLine($"Day 02 - Part 1 - Total = {dayTwo.PartOne(inputs)}");
+            Console.WriteLine($"Day 02 - Part 2 - Total = {dayTwo.PartTwo(inputs)}");
+
             Console.ReadKey();
         }
     }
