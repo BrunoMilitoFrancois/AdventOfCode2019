@@ -27,11 +27,11 @@ namespace AdventOfCode2019.Day2
                 var predicateTwo = numbers[numbers[i + 2]];
                 var outputPosition = numbers[i + 3];
 
-                if(operation == 1)
+                if (operation == 1)
                 {
                     numbers[outputPosition] = predicateOne + predicateTwo;
                 }
-                else if(operation == 2)
+                else if (operation == 2)
                 {
                     numbers[outputPosition] = predicateOne * predicateTwo;
                 }
