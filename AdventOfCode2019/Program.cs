@@ -10,19 +10,19 @@ namespace AdventOfCode2019
     {
         static void Main(string[] args)
         {
-            //var dayOneInput = File.ReadAllLines("01.txt");
+            var dayOneInput = File.ReadAllLines("01.txt");
 
-            //var dayOne = new DayOne();
+            var dayOne = new DayOne();
 
-            //Console.WriteLine($"Day 01 - Part 1 - Total = {dayOne.PartOne(dayOneInput)}");
-            //Console.WriteLine($"Day 01 - Part 2 - Total = {dayOne.PartTwo(dayOneInput)}");
+            Console.WriteLine($"Day 01 - Part 1 - Total = {dayOne.PartOne(dayOneInput)}");
+            Console.WriteLine($"Day 01 - Part 2 - Total = {dayOne.PartTwo(dayOneInput)}");
 
-            //var dayTwo = new DayTwo();
+            var dayTwo = new DayTwo();
 
-            //var dayTwoInputs = File.ReadAllLines("02.txt");
+            var dayTwoInputs = File.ReadAllLines("02.txt");
 
-            //Console.WriteLine($"Day 02 - Part 1 - Total = {dayTwo.PartOne(dayTwoInputs)}");
-            //Console.WriteLine($"Day 02 - Part 2 - Total = {dayTwo.PartTwo(dayTwoInputs)}");
+            Console.WriteLine($"Day 02 - Part 1 - Total = {dayTwo.PartOne(dayTwoInputs)}");
+            Console.WriteLine($"Day 02 - Part 2 - Total = {dayTwo.PartTwo(dayTwoInputs)}");
 
             var dayThreeInputs = File.ReadAllLines("03.txt");
 
